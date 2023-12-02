@@ -144,5 +144,32 @@ li {
   margin: 20px;
   display: flex;
   justify-content: space-around;
-  border: 2px solid black;
+}
+
+.about_left {
+  padding: 20px;
+}
+.about_left video {
+  height: 360 px;
+  width: 595px;
+}
+
+.about_right {
+  padding: 20px;
+}
+
+.about_right h1 {
+  font-size: 50px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: blueviolet;
+}
+.about_right span {
+  color: rgb(197, 79, 96);
+  font-size: 35px;
+}
+
+.about_right p {
+  text-align: justify;
+  font-size: 19px;
 }

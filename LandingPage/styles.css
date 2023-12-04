@@ -233,3 +233,83 @@ li {
   width: 50%;
   text-align: center;
 }
+
+.services {
+  margin: 30px;
+}
+
+.services_container {
+  padding: 20px;
+}
+.services h1 {
+  font-size: 50px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: blueviolet;
+  text-align: center;
+}
+
+.service {
+  text-align: center;
+  font-size: 30px;
+}
+
+.contact_us {
+  display: flex;
+  justify-content: space-around;
+}
+
+#contact h1 {
+  font-size: 39px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.contact_left {
+  width: 50%;
+}
+
+.contact_right {
+  width: 50%;
+}
+
+.contact_right img {
+  width: 650px;
+  height: 600px;
+}
+
+form {
+  width: 80%;
+  margin: auto;
+  font-size: 25px;
+  padding: 30px;
+}
+
+input {
+  outline: none;
+}
+
+#submit {
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 10px;
+  color: aquamarine;
+  background-color: rgb(162, 49, 243);
+  transition: 0.5s ease-in-out;
+  border-radius: 3px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+#submit:hover {
+  color: rgb(162, 49, 243);
+  background-color: aquamarine;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.submit_btn {
+  text-align: center;
+}

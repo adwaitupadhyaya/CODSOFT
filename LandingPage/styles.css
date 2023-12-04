@@ -173,3 +173,37 @@ li {
   text-align: justify;
   font-size: 19px;
 }
+
+.why_digitech h1 {
+  text-align: center;
+}
+
+.why_digitech {
+  margin: 20px;
+}
+.why_digitech .why_container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.why_section {
+  padding: 30px;
+}
+
+.why_section h2 {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.why_section p {
+  text-align: justify;
+}
+
+.why_section:hover {
+  background-color: rgb(161, 62, 253);
+  color: aqua;
+  font-weight: bold;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+  transition: 0.5s ease-in-out;
+  border-radius: 10px;
+}

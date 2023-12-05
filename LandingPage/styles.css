@@ -91,6 +91,8 @@ li {
 .right_container video {
   height: 360px;
   width: 595px;
+  object-fit: cover !important;
+  border-radius: 15px !important;
 }
 
 .container_second {
@@ -152,6 +154,8 @@ li {
 .about_left video {
   height: 360 px;
   width: 595px;
+  object-fit: cover !important;
+  border-radius: 15px !important;
 }
 
 .about_right {
@@ -312,4 +316,77 @@ input {
 
 .submit_btn {
   text-align: center;
+}
+
+.footer {
+  background-color: rgb(218, 179, 255);
+  color: black;
+  bottom: 0;
+}
+
+.footer p {
+  text-align: center;
+}
+
+hr {
+  color: black !important;
+}
+
+.social_media {
+  padding: 20px;
+  width: 60%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.social_media_icon {
+  padding: 10px;
+  font-size: 30px;
+}
+
+.contact_information {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: auto;
+}
+.info {
+  margin: 10px;
+  padding: 10px;
+  width: 25%;
+}
+
+#copyright {
+  font-weight: bold;
+}
+
+.location {
+  font-size: 15px !important;
+  display: flex;
+  justify-content: space-between;
+}
+.email {
+  font-size: 15px !important;
+  display: flex;
+  justify-content: space-around;
+}
+.website {
+  font-size: 15px !important;
+  display: flex;
+  justify-content: space-around;
+}
+
+.info_bg {
+  background-image: url("static/images/footer.jpg");
+  background-size: 550px;
+  height: 300px;
+  width: 400px;
+  border-radius: 10px;
+}
+
+h5 {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
 }
